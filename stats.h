@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Initial C Programing 
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Harvish Mehta
+ * @date 09/28/2024
  *
  */
 #ifndef __STATS_H__
@@ -23,18 +23,36 @@
 
 /* Add Your Declarations and Function Comments here */ 
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
+void print_statistics() // Print Statistics of array min, max, and mean 
+
+void print_array(int array[], int size) //Given an array of data and a length, prints the array to the screen
+
+float find_median(int array[], int size) //Given an array of data and a length, returns the median value
+
+int find_mean(int array[], int size) //Given an array of data and a length, returns the mean value
+
+int find_maximum(int array[], int size) //Given an array of data and a length, returns the max
+
+int find_minimum(int array[], int size) //Given an array of data and a length, returns the min
+
+int sort_array(int array[], int size) //Given an array of data and a length, returns the largest to smallest
+
 
 
 #endif /* __STATS_H__ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
