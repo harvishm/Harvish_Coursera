@@ -22,76 +22,14 @@
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
-
-//void print_statistics(); // Print Statistics of array min, max, and mean 
-
-//Given an array of data and a length, prints the array to the screen
-void print_array(char array[], int size) 
-{
-	for(int i = 0; i < size; i++)
-		{
-			printf("%s ",array[i]);
-		}
-}
-
-//Given an array of data and a length, returns the median value
-float find_median(char array[], int size) 
-{
-
-
-}
-
-//Given an array of data and a length, returns the mean value
-float find_mean(char array[], int size) 
-{
-	float sum = 0;
-	for(int i = 0; i < size; i++)
-		{
-			sum = sum + (int)array[i];	
-		}
-	float mean = sum/size;
-	return mean;
-
-}
-
- //Given an array of data and a length, returns the max
-int find_maximum(char array[], int size)
-{
-	int max = 0;
-	for(int i = 0; i < size; i++)
-		{
-			if (max <= (int)array[i])
-				max = (int)array[i];
-		}
-	return max;
-}
-int find_minimum(char array[], int size) //Given an array of data and a length, returns the min
-{
-	int min = 0;
-	for(int i = 0; i < size; i++)
-		{
-			if (min >= (int)array[i])
-				min = (int)array[i];
-		}
-	return min;
-}
-
-int sort_array(char array[], int size) //Given an array of data and a length, returns the largest to smallest
-
-{
-	int sortedArray[size];
-
-	for(int m = 0; m < size; m++)
-		{
-
-			for(int b = 0; b < size; b++)
-				{
-	
-				}
-
-		}
-	return sortedArray;
-}
+// Function Prototypes
+void print_statistics(unsigned char array[], int size);
+void print_array(unsigned char array[], int size);
+float find_median(unsigned char array[], int size);
+float find_mean(unsigned char array[], int size);
+int find_maximum(unsigned char array[], int size);
+int find_minimum(unsigned char array[], int size);
+void sort_array(unsigned char array[], int size);
 
 #endif /* __STATS_H__ */
 
